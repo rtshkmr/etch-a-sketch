@@ -55,6 +55,9 @@ cells.forEach((cell) => {
     cell.addEventListener('mouseover', (e) => {
         e.target.style.backgroundColor = colorOn();
     });
+    cell.addEventListener('touchstart', (e) => {
+        e.target.style.backgroundColor = colorOn();
+    });
 
 });
 
